@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Google Fonts */
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Common Classes */
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color-primary {
+  color: #3a3a3a;
+}
+
+.color-black {
+  color: #000;
+}
+
+/* Shared Styles */
+
+.width-class {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.section-padding {
+  padding-top: 100px;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+/* Header Area */
+
+header {
+  padding: 86px 0 50px;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  font-size: 24px;
+}
+
+.menu-item {
+  align-items: center;
+  gap: 34px;
+}
