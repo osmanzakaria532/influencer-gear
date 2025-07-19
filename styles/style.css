@@ -5,7 +5,7 @@
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 /* Google Fonts */
@@ -56,6 +56,11 @@
   font-optical-sizing: auto;
 }
 
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
 /* Common Classes */
 
 ul li {
@@ -66,17 +71,36 @@ a {
   text-decoration: none;
 }
 
-.color-primary {
+img {
+  width: 100%;
+}
+
+.color-3a3a3a {
   color: #3a3a3a;
 }
 
-.color-black {
+.color-787885 {
+  color: #787885;
+}
+
+.color-000000 {
   color: #000;
 }
 
+.color-18191F {
+  color: #18191f;
+}
+
+.color-5E6366 {
+  color: #5e6366;
+}
+
+.color-FB8200 {
+  color: #fb8200;
+}
 /* Shared Styles */
 
-.width-class {
+.container-width {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -140,7 +164,7 @@ nav {
 /* Banner Area */
 
 .banner {
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .banner-container {
@@ -153,13 +177,13 @@ nav {
 }
 
 .banner-content h1 {
-    font-size: 52px;
-    line-height: 72px;
-    margin-bottom: 16px;
+  font-size: 52px;
+  line-height: 72px;
+  margin-bottom: 16px;
 }
 
 .banner-content p {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .banner-content a {
@@ -175,4 +199,83 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px;
+}
+
+/* Companies Logos */
+
+.companies-logos-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 45px;
+}
+
+.companies-logos img {
+  width: auto;
+}
+
+/* Gallery - Card Area */
+
+.gallery-container {
+    padding: 0 76px;
+}
+
+.gallery-container h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.gallery-container-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.gallery-container-card {
+  padding: 18px 14px;
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.gallery-container-card h4 {
+  font-size: 28px;
+  line-height: 40px;
+  margin: 16px 0 10px;
+}
+
+.gallery-container-card p.price {
+  font-size: 24px;
+  line-height: 150%;
+  margin: 6px 0;
+}
+
+.gallery-container-card .rating {
+  align-items: center;
+  gap: 8px;
+}
+
+.gallery-container-card .rating i {
+  font-size: 10px;
+}
+
+.gallery-container-card span.rating-number {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.gallery-container-card .details {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 1.8%;
+  font-weight: 600;
+}
+
+.gallery-btn {
+    margin-top: 50px;
+    text-align: right;
 }
