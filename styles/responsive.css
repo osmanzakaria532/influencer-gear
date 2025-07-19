@@ -101,6 +101,26 @@
     margin-top: 30px;
     text-align: center;
   }
+
+  /* feature */
+
+  .feature-area {
+    padding: 26px 12px;
+    text-align: center;
+  }
+
+  .feature-container {
+    padding: 0;
+    flex-direction: column-reverse !important;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .feature-content h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -127,5 +147,32 @@
   .gallery-btn {
     margin-top: 50px;
     text-align: center;
+  }
+
+  /* feature */
+
+  .feature-container {
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .feature-content {
+    text-align: left;
+    max-width: 420px;
+  }
+
+  .feature-content h2 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+
+  .feature-content p {
+    line-height: 24px;
+    color: #6c6c6c;
+    margin: 14px 0;
+    font-size: 14px;
   }
 }

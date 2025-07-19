@@ -290,10 +290,13 @@ nav {
 
 .feature-area {
   padding-bottom: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .feature-container {
   padding: 0 45px;
+  flex-direction: row !important;
   justify-content: space-between;
   align-items: center;
   gap: 96px;
