@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+  header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* nav {
+    display: none;
+  } */
+
+  .width-class {
+    width: auto;
+  }
+
+  .logo-title {
+    font-size: 14px;
+  }
+
+  .menus {
+    display: none;
+  }
+
+  .logo {
+    order: 2;
+  }
+
+  .mobile-view {
+    display: block;
+    order: 1;
+  }
+
+  .mobile-view-shopping {
+    display: block;
+    order: 3;
+  }
+}

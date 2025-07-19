@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.hide {
+    display: none;
+}
+
 /* Google Fonts */
 
 .poppins-regular {
@@ -87,10 +91,17 @@ a {
 }
 
 .btn-primary {
-  background-color: #fff;
+  background-color: #e02c6d;
   color: #fff;
   padding: 10px 24px;
   font-size: 16px;
+  display: inline-block;
+}
+
+.btn-secondary {
+  color: #e02c6d;
+  font-size: 16px;
+  display: inline-block;
 }
 
 /* Header Area */
@@ -102,6 +113,7 @@ header {
 nav {
   justify-content: space-between;
   align-items: center;
+  display: none;
 }
 
 .logo-title {
@@ -111,4 +123,56 @@ nav {
 .menu-item {
   align-items: center;
   gap: 34px;
+}
+
+.mobile-view {
+  display: none;
+}
+
+.mobile-view {
+  display: none;
+}
+
+.mobile-view-shopping {
+  display: none;
+}
+
+/* Banner Area */
+
+.banner {
+  padding-top: 50px;
+}
+
+.banner-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+
+.banner-content h1 {
+    font-size: 52px;
+    line-height: 72px;
+    margin-bottom: 16px;
+}
+
+.banner-content p {
+    margin-bottom: 16px;
+}
+
+.banner-content a {
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.banner-img {
+  background-image: url("../images/Circle\ design.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
 }
