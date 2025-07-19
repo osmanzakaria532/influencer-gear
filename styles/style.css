@@ -194,11 +194,17 @@ nav {
   -o-border-radius: 40px;
 }
 
+.banner a.btn-primary i {
+  margin-left: 8px;
+}
+
 .banner-img {
   background-image: url("../images/Circle\ design.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding: 30px;
+  /* border: 2px solid red; */
+  background-position: center;
 }
 
 /* Companies Logos */
@@ -216,7 +222,7 @@ nav {
 /* Gallery - Card Area */
 
 .gallery-container {
-    padding: 0 76px;
+  padding: 0 76px;
 }
 
 .gallery-container h3 {
@@ -276,6 +282,76 @@ nav {
 }
 
 .gallery-btn {
-    margin-top: 50px;
-    text-align: right;
+  margin-top: 50px;
+  text-align: right;
+}
+
+/* Feature Area */
+
+.feature-area {
+  padding-bottom: 100px;
+}
+
+.feature-container {
+  padding: 0 45px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+}
+
+.feature-content {
+  max-width: 610px;
+}
+
+.feature-content h2 {
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.feature-content p {
+  line-height: 26px;
+  color: #6c6c6c;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+footer {
+  background-color: rgb(10, 8, 38);
+  text-align: center;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  max-width: 265px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 14px 0;
+}
+
+.link-icons a {
+  display: inline-block;
+  background-color: rgba(34, 33, 60, 1);
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 16px;
+}
+
+.link-icons a:last-child {
+  margin-right: 0;
+}
+
+.link-icons a i {
+  color: #fff;
 }
